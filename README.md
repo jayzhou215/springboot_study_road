@@ -2,7 +2,8 @@
 从零开始学习Springboot，记录下自己的学习之路
 
 ## 知识点梳理
-1. 使用mvn启动项目，展示hello world
+1. 使用`mvn spring-boot:run`启动项目，展示hello world
+1. 添加pom plugin配置，使用`java -jar target/xxx.jar`启动项目
 2. 理解autoconfig等注释
 3. 为maven配置aliyun镜像
 4. 初步使用git命令 
@@ -24,7 +25,9 @@
 1. 设定一定的需求，不断扩展工程，来丰富知识体系
 
 ## 需求提出
-1. 提供分页功能
+1. 基于内存的访问计数
+2. 基于redis的访问计数
+3. 提供分页功能
 
 ## 参考资源
 1. [官方资料](https://spring.io/guides/gs/accessing-data-mysql/)
