@@ -6,13 +6,13 @@
 2. 理解autoconfig等注释
 3. 为maven配置aliyun镜像
 4. 初步使用git命令 
-  1. git init
-  2. git add .
-  3. git commit -m "some text"
-  4. git diff
-  5. git status 
-  6. git diff --cached
-  7. git checkout -- file
+    1. git init
+    2. git add .
+    3. git commit -m "some text"
+    4. git diff
+    5. git status 
+    6. git diff --cached
+    7. git checkout -- file
 5. 掌握常用redis命令，对keys list, set, hash建立初步认识 [参考](http://www.runoob.com/redis/redis-tutorial.html)
 6. 掌握常用mysql语句[参考](http://www.runoob.com/mysql/mysql-tutorial.html)
 7. 掌握json工具
