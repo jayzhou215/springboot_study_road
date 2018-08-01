@@ -1,4 +1,5 @@
 ### redis使用实践
+1. 基于redis的访问计数
 1. 按照城市、用户维度存储用户的姓名、年龄等信息
     1. 使用hash结构
     2. key cityid_userid
@@ -26,4 +27,6 @@
     2. key ordersend
     3. 某个客服收到用户购买请求新增订单 `lpush ordersend "{order and address json}"`
     4. 某个邮寄人员取出一条记录并根据其中地址信息开始执行派送 `lpop ordersend`
-    5. 查看剩余待处理订单 `llen ordersend`
+    5. 查看剩余待处理订单数 `llen ordersend`
+1. baidu Redis发布订阅和应用场景
+    1. 其一，订阅清除缓存topic，收到消息后立刻清除缓存

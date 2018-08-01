@@ -26,9 +26,10 @@
 
 ## 需求提出
 1. 基于内存的访问计数
-2. 基于redis的访问计数
+2. [使用redis的场景设想](./docs/redis.md)
 3. 提供分页功能
-4. [更多redis需求](./docs/redis.md)
+4. 
+5. 
 
 ## 参考资源
 1. [官方资料](https://spring.io/guides/gs/accessing-data-mysql/)
